@@ -1,0 +1,10 @@
+{
+	"spotify": {
+		"client_id": "xxx",
+		"client_secret": "xxx",
+		"access_token": "xxx",
+		"refresh_token": "xxx"
+	},
+	"secret": "secret",
+	"port": 8080
+}

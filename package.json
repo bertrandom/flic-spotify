@@ -1,0 +1,19 @@
+{
+  "name": "flic-spotify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "pm2": "pm2 start ecosystem.config.js",
+    "ngrok": "ngrok http -bind-tls=true -subdomain=$npm_package_name 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.2.5",
+    "express": "^4.17.1",
+    "spotify-web-api-node": "^4.0.0"
+  }
+}
