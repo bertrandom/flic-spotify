@@ -6,7 +6,8 @@
   "scripts": {
     "pm2": "pm2 start ecosystem.config.js",
     "ngrok": "ngrok http -bind-tls=true -subdomain=$npm_package_name 8080",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "rsync -av --exclude-from=.gitignore --exclude='.git/' ./ bertrand@server2.bertrandom.com:/var/www/flicspotify.bert.org/"
   },
   "author": "",
   "license": "ISC",
