@@ -5,6 +5,10 @@
 		"access_token": "xxx",
 		"refresh_token": "xxx"
 	},
+	"devices": {
+		"1": "Speaker 1 Name",
+		"2": "Speaker 2 Name"
+	},
 	"secret": "secret",
 	"port": 8080
 }
